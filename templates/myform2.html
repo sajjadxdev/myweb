@@ -1,0 +1,85 @@
+{% extends "index.html" %}
+{% load static %}
+{% block title %}SAJJAD.CV{% endblock  %}
+
+{% block content %}
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <div class='card card-body border-info' id="profile-wraper">
+                <img id="profile-pic" src="{% static "images/image.jpg" %}">  
+                <hr>
+                <h4>Hi,Sajjad Ahmad</h4>
+                <p>I Love coding,doing research and collaborating</p>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class='card card-body border-info' >
+                <h1>About Me</h1>
+                <hr>
+                <p>"My name is Sajjad Ahmad, and I graduated from FATA University with a degree in BS Computer Science.
+                During my four-year program, I studied a variety of courses including C++, Python, MATLAB, PHP, and networking. 
+                These courses equipped me with a solid foundation in programming languages, computational methods, and networking principles.
+                I am passionate about leveraging these skills to contribute meaningfully to the field of computer science and technology."</p>
+                <ul class='social-link'>
+                    <li><a href="https://www.facebook.com/profile.php?id=100009760653682&mibextid=ZbWKwL"><img src='{% static "images/facebook.png" %}'></a></li>
+                    <li><a href="https://www.linkedin.com/in/sajjadxdev?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src='{% static "images/linkdin.png" %}'></a></li>
+                    <li><a href="https://github.com/sajjadxdev"><img src='{% static "images/github.png" %}'></a></li>
+                    <li><a href="https://youtube.com/@knowledgeocean9335?feature=shared"><img src='{% static "images/youtube.png" %}'></a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-3">
+            <div class='card card-body'> 
+            <h5>Contact </h5>
+            <hr>
+            <h6 >&#9670;&emsp;Mobile No :</h6><p style="margin-left:30px;"> +92 316 6400174 <br>+92 335 9391603</p>
+            <h6 style="margin-top:-12px;">&#9670;&emsp;Email :</h6><p style="margin-left:30px;"><a href="mailto: sajjadXdev@gamil.com"> sajjadXdev@gamil.com </a></p>
+            <h6 style="margin-top:-12px;"> &#9670;&emsp;Address :</h6><p style="margin-left:30px;"> Darra Adam Khel FR Kohat </p>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class='card card-body'>
+                <h5>Education</h5>
+                <hr>
+            <h6>&#9670;&emsp;Bachelor of Science in Computer Science &#127891;</h6> 
+            <p style="font-size:12px;margin-left:44px">&#128974;FATA University TSD Kohat  &#x2192;&ensp;  2020--2024<p>
+            <h6 style="margin-top:-28px;">&#9670;&emsp;DIPLOMA IN INFORMATION TECHNOLOGY</h6>
+            <p style="font-size:12px;margin-left:44px;">&#128974;FATA IT Acadmey Darra Adam Khel FR Kohat  &#x2192;&ensp;  2022--2023<p>
+            <h6 style="margin-top:-28px;">&#9670;&emsp;F.Sc Pre-Engineering</h6>
+            <p style="font-size:12px;margin-left:44px">&#128974;Oxford Public School & College Darra Adam Khel TSD kohat &#x2192;&ensp;  2018--2020<p>
+            <h6 style="margin-top:-28px;">&#9670;&emsp;Matriculation</h6>
+            <p style="font-size:12px;margin-left:44px">&#128974; Oxford Public School & College Darra Adam Khel TSD kohat &#x2192;&ensp;  2016--2018<p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-3">
+            <div class='card card-body'>
+                <h5>Language</h5>
+                <hr>
+                <h7>&#9670;&emsp;English&ensp;&#9632;&#9632;&#9635;&#9635;&#9635;&nbsp;40&#x25;</h7>
+                <h7>&#9670;&emsp;Urdu&emsp;&ensp;&#9632;&#9632;&#9632;&#9635;&#9635;&nbsp;60&#x25;</h7>
+                <h7>&#9670;&emsp;Pashto&nbsp;&ensp;&#9632;&#9632;&#9632;&#9632;&#9635;&nbsp;80&#x25;</h7>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class='card card-body'>
+                <h5>Programing Skill</h5>
+                <hr>
+                <h7>&#9670;&emsp;Python&ensp;&#9632;&#9632;&#9632;&#9635;&#9635;&nbsp;60&#x25; <span style="margin-left:40px;"></span> ||<span style="margin-left:40px;"></span>&#9670;&emsp;Django&ensp;&#9632;&#9632;&#9635;&#9635;&#9635;&nbsp;50&#x25;</h7>
+                <h7>&#9670;&emsp;OOPs &nbsp;&nbsp;&nbsp;&#9632;&#9632;&#9635;&#9635;&#9635;&nbsp;40&#x25;<span style="margin-left:40px;"></span> ||<span style="margin-left:40px;"></span>&#9670;&emsp;SQL lite&nbsp;&#9632;&#9635;&#9635;&#9635;&#9635;&nbsp;20&#x25;</h7>
+                <h7>&#9670;&emsp;c++&nbsp;&emsp;&ensp;&#9632;&#9632;&#9635;&#9635;&#9635;&nbsp;50&#x25;</h7>
+            </div>
+        </div>
+    </div>
+    <br>
+</div>
+
+{% endblock  %}
